@@ -5,6 +5,7 @@ class Fooddata {
   String facebook = '';
   String mobile = '';
   String image = '';
+  String gps = '';
 
   Fooddata({
     required this.name,
@@ -12,5 +13,6 @@ class Fooddata {
     required this.facebook,
     required this.mobile,
     required this.image,
+    required this.gps,
   });
 }
